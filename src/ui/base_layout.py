@@ -28,7 +28,7 @@ def style_background_dashboard():
         <style>
 
                .stApp {
-                background: ##E03FF !important;
+                background: #E0E3FF !important;
                }
 
          </style>
@@ -40,7 +40,7 @@ def style_background_dashboard():
 
 
 def style_base_layout():
-
+  # abdasd
     st.markdown("""
            <style>
            @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap'); 
@@ -48,15 +48,14 @@ def style_base_layout():
 
 
              /* Hide Top Bar streamlit */
-
-                #MainMenu, footer, header{
+                #MainMenu, footer, header {
                     visibility: hidden;
                 }
-                    
-                .block-container {
-                    padding-top:1.5rem !important;
+
+                .block-container{
+                     padding-top:1.5rem !important;
                 }
-                
+ 
                 h1{
                 font-family: 'Climate Crisis', sans-serif !important;
                 font-size: 3.5rem !important;
@@ -79,7 +78,7 @@ def style_base_layout():
 
                  button{
                     border-radius: 1.5rem !important;
-                    background: #5865F2 !important;
+                    background-color: #5865F2 !important;
                     color: white !important;
                     padding: 10px 20px !important;
                     border: none !important;
@@ -88,7 +87,7 @@ def style_base_layout():
 
                 button[kind="secondary"]{
                     border-radius: 1.5rem !important;
-                    background: #EB459E !important;
+                    background-color: #EB459E !important;
                     color: white !important;
                     padding: 10px 20px !important;
                     border: none !important;
@@ -97,7 +96,7 @@ def style_base_layout():
 
                  button[kind="tertiary"]{
                     border-radius: 1.5rem !important;
-                    background: #black !important;
+                    background-color: black !important;
                     color: white !important;
                     padding: 10px 20px !important;
                     border: none !important;
@@ -107,6 +106,4 @@ def style_base_layout():
                 button:hover{
                 transform :scale(1.05)}
             </style>
-              
-                    """
-                ,unsafe_allow_html=True)
+              """,unsafe_allow_html=True)

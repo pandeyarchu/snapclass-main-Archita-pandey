@@ -8,4 +8,14 @@ def footer_home():
     margin-top:20px;'>
        Created with ❤️ by Archita Pandey
     </div>
-       """, unsafe_allow_html=True)
+           """, unsafe_allow_html=True)
+
+
+def footer_dashboard():
+
+    st.markdown (f"""
+    <div style='text-align:center; color:black; font-size:18px;
+    margin-top:20px;'>
+       Created with ❤️ by Archita Pandey
+    </div>
+           """, unsafe_allow_html=True)
